@@ -1,0 +1,29 @@
+name: Verilog CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Install Icarus Verilog
+      run: sudo apt-get update && sudo apt-get install -y iverilog
+
+    - name: Compile and Run Simulation
+      run: |
+        cd Week1/Multiplexer
+        iverilog -o mux_test mux16to1.v muxtest.v
+        vvp mux_test
+        ls -l
+
+    - name: Upload VCD File
+      uses: actions/upload-artifact@v3
+      with:
+        name: mux_waveform
+        path: Week1/Multiplexer/*.vcd
