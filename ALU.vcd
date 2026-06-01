@@ -1,0 +1,347 @@
+$date
+	Mon Jun 01 23:18:32 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alutest $end
+$var wire 1 ! zr $end
+$var wire 16 " z [15:0] $end
+$var wire 1 # v $end
+$var wire 1 $ s $end
+$var wire 1 % p $end
+$var wire 1 & c $end
+$var reg 16 ' x [15:0] $end
+$var reg 16 ( y [15:0] $end
+$scope module DUT $end
+$var wire 1 # overflow $end
+$var wire 16 ) x [15:0] $end
+$var wire 16 * y [15:0] $end
+$var wire 1 ! zero $end
+$var wire 16 + z [15:0] $end
+$var wire 1 $ sign $end
+$var wire 1 % parity $end
+$var wire 1 & carry $end
+$var wire 1 , c3 $end
+$var wire 1 - c2 $end
+$var wire 1 . c1 $end
+$scope module a1 $end
+$var wire 4 / a [3:0] $end
+$var wire 4 0 b [3:0] $end
+$var wire 1 1 c $end
+$var wire 4 2 s [3:0] $end
+$var wire 1 . cout $end
+$var wire 1 3 c3 $end
+$var wire 1 4 c2 $end
+$var wire 1 5 c1 $end
+$scope module f1 $end
+$var wire 1 6 a $end
+$var wire 1 7 b $end
+$var wire 1 1 cin $end
+$var wire 1 5 cout $end
+$var wire 1 8 s $end
+$upscope $end
+$scope module f2 $end
+$var wire 1 9 a $end
+$var wire 1 : b $end
+$var wire 1 5 cin $end
+$var wire 1 4 cout $end
+$var wire 1 ; s $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 < a $end
+$var wire 1 = b $end
+$var wire 1 4 cin $end
+$var wire 1 3 cout $end
+$var wire 1 > s $end
+$upscope $end
+$scope module f4 $end
+$var wire 1 ? a $end
+$var wire 1 @ b $end
+$var wire 1 3 cin $end
+$var wire 1 . cout $end
+$var wire 1 A s $end
+$upscope $end
+$upscope $end
+$scope module a2 $end
+$var wire 4 B a [3:0] $end
+$var wire 4 C b [3:0] $end
+$var wire 1 D c $end
+$var wire 4 E s [3:0] $end
+$var wire 1 - cout $end
+$var wire 1 F c3 $end
+$var wire 1 G c2 $end
+$var wire 1 H c1 $end
+$scope module f1 $end
+$var wire 1 I a $end
+$var wire 1 J b $end
+$var wire 1 D cin $end
+$var wire 1 H cout $end
+$var wire 1 K s $end
+$upscope $end
+$scope module f2 $end
+$var wire 1 L a $end
+$var wire 1 M b $end
+$var wire 1 H cin $end
+$var wire 1 G cout $end
+$var wire 1 N s $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 O a $end
+$var wire 1 P b $end
+$var wire 1 G cin $end
+$var wire 1 F cout $end
+$var wire 1 Q s $end
+$upscope $end
+$scope module f4 $end
+$var wire 1 R a $end
+$var wire 1 S b $end
+$var wire 1 F cin $end
+$var wire 1 - cout $end
+$var wire 1 T s $end
+$upscope $end
+$upscope $end
+$scope module a3 $end
+$var wire 4 U a [3:0] $end
+$var wire 4 V b [3:0] $end
+$var wire 1 W c $end
+$var wire 4 X s [3:0] $end
+$var wire 1 , cout $end
+$var wire 1 Y c3 $end
+$var wire 1 Z c2 $end
+$var wire 1 [ c1 $end
+$scope module f1 $end
+$var wire 1 \ a $end
+$var wire 1 ] b $end
+$var wire 1 W cin $end
+$var wire 1 [ cout $end
+$var wire 1 ^ s $end
+$upscope $end
+$scope module f2 $end
+$var wire 1 _ a $end
+$var wire 1 ` b $end
+$var wire 1 [ cin $end
+$var wire 1 Z cout $end
+$var wire 1 a s $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 b a $end
+$var wire 1 c b $end
+$var wire 1 Z cin $end
+$var wire 1 Y cout $end
+$var wire 1 d s $end
+$upscope $end
+$scope module f4 $end
+$var wire 1 e a $end
+$var wire 1 f b $end
+$var wire 1 Y cin $end
+$var wire 1 , cout $end
+$var wire 1 g s $end
+$upscope $end
+$upscope $end
+$scope module a4 $end
+$var wire 4 h a [3:0] $end
+$var wire 4 i b [3:0] $end
+$var wire 1 j c $end
+$var wire 4 k s [3:0] $end
+$var wire 1 & cout $end
+$var wire 1 l c3 $end
+$var wire 1 m c2 $end
+$var wire 1 n c1 $end
+$scope module f1 $end
+$var wire 1 o a $end
+$var wire 1 p b $end
+$var wire 1 j cin $end
+$var wire 1 n cout $end
+$var wire 1 q s $end
+$upscope $end
+$scope module f2 $end
+$var wire 1 r a $end
+$var wire 1 s b $end
+$var wire 1 n cin $end
+$var wire 1 m cout $end
+$var wire 1 t s $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 u a $end
+$var wire 1 v b $end
+$var wire 1 m cin $end
+$var wire 1 l cout $end
+$var wire 1 w s $end
+$upscope $end
+$scope module f4 $end
+$var wire 1 x a $end
+$var wire 1 y b $end
+$var wire 1 l cin $end
+$var wire 1 & cout $end
+$var wire 1 z s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0z
+1y
+1x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+b0 k
+0j
+b1000 i
+b1000 h
+1g
+0f
+1e
+1d
+0c
+1b
+1a
+0`
+1_
+1^
+0]
+1\
+0[
+0Z
+0Y
+b1111 X
+0W
+b0 V
+b1111 U
+1T
+0S
+1R
+1Q
+0P
+1O
+1N
+0M
+1L
+1K
+0J
+1I
+0H
+0G
+0F
+b1111 E
+0D
+b0 C
+b1111 B
+1A
+0@
+1?
+1>
+0=
+1<
+1;
+0:
+19
+18
+07
+16
+05
+04
+03
+b1111 2
+01
+b0 0
+b1111 /
+0.
+0-
+0,
+b111111111111 +
+b1000000000000000 *
+b1000111111111111 )
+b1000000000000000 (
+b1000111111111111 '
+1&
+1%
+0$
+1#
+b111111111111 "
+0!
+$end
+#5
+1.
+0A
+13
+0>
+14
+1$
+0&
+b1 2
+0;
+1%
+b1000111111110001 "
+b1000111111110001 +
+b1000 k
+1z
+1#
+1:
+0y
+b10 0
+b0 i
+b10 (
+b10 *
+#10
+1>
+0.
+04
+1A
+b1111 2
+1;
+1q
+1w
+03
+1%
+b1111111111111111 "
+b1111111111111111 +
+b1111 k
+1t
+17
+0:
+1=
+1J
+1P
+1]
+1c
+1p
+1v
+06
+0<
+0I
+0O
+0\
+0b
+1r
+b101 0
+b101 C
+b101 V
+b101 i
+b1010 /
+b1010 B
+b1010 U
+b1010 h
+b101010101010101 (
+b101010101010101 *
+b1010101010101010 '
+b1010101010101010 )
+#15
