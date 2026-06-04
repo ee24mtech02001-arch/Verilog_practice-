@@ -9,7 +9,7 @@ module ripple_add_tb;
         .y(b),
         .mode(m),
         .sum(s),
-        .carry(c),        
+        .carry(c),
         .ovflow(ov)
     );
 
@@ -19,10 +19,11 @@ module ripple_add_tb;
         $monitor("mode=%b  a=%d  b=%d  =>  s=%d  carry=%b  ov=%b",
                   m, a, b, s, c, ov);
 
-        #5 m=0; a=4'd5; b=4'd3;   // 5 + 3  = 8
-        #5 m=0; a=4'd7; b=4'd8;   // 7 + 8  = 15
-        #5 m=1; a=4'd5; b=4'd3;   // 5 - 3  = 2
-        #5 m=1; a=4'd7; b=4'd8;   // 7 - 8  = wraps to 15
+        #5 m=0; a=4'd5; b=4'd3;   // 5 + 3 = 8
+        #5 m=0; a=4'd7; b=4'd8;   // 7 + 8 = 15
+        #5 m=1; a=4'd5; b=4'd3;   // 5 - 3 = 2
+        #5 m=1; a=4'd7; b=4'd8;   // 7 - 8 = -1
         #5 $finish;
     end
-endmodule
+
+endmodule                       // ✅ closes ripple_add_tb
