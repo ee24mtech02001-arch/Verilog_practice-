@@ -9,8 +9,8 @@ module ripple_add_tb;
         .y(b),
         .mode(m),
         .sum(s),
-        .carry(c),        // ✅ was .cout(c)
-        .overflow(ov)
+        .carry(c),        
+        .ovflow(ov)
     );
 
     initial begin
