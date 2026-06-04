@@ -3,7 +3,8 @@ module add_sub_4bit(
     input mode,
     
     output [3:0]sum,
-    output carry,overflow
+    output carry,
+    output overflow
 );
     wire c1,c2,c3,cin,cout;
     wire [3:0] y_xor;
