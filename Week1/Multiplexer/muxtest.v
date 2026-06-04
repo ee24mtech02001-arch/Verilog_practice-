@@ -5,7 +5,7 @@ module muxtest;
     mux16to1 dut (.data(A),.sel(S),.out(F));
     initial
        begin
-        $dumpfile("mux16to1.vcd");
+        $dumpfile("mux.vcd");
         $dumpvars(0,muxtest);
         $monitor("A=%h,S=%h,F=%b",A,S,F);
         #5 A= 16'h3f0a;

@@ -1,0 +1,181 @@
+$date
+	Wed Jun  3 18:51:03 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module ripple_add_tb $end
+$var wire 4 ! s [3:0] $end
+$var wire 1 " ov $end
+$var wire 1 # c $end
+$var reg 4 $ a [3:0] $end
+$var reg 4 % b [3:0] $end
+$var reg 1 & m $end
+$scope module uut $end
+$var wire 1 # carry $end
+$var wire 1 ' cin $end
+$var wire 1 & mode $end
+$var wire 1 " overflow $end
+$var wire 4 ( x [3:0] $end
+$var wire 4 ) y [3:0] $end
+$var wire 4 * y_xor [3:0] $end
+$var wire 4 + sum [3:0] $end
+$var wire 1 , cout $end
+$var wire 1 - c3 $end
+$var wire 1 . c2 $end
+$var wire 1 / c1 $end
+$scope module f0 $end
+$var wire 1 ' cin $end
+$var wire 1 / cout $end
+$var wire 1 0 sum $end
+$var wire 1 1 x $end
+$var wire 1 2 y $end
+$upscope $end
+$scope module f1 $end
+$var wire 1 / cin $end
+$var wire 1 . cout $end
+$var wire 1 3 sum $end
+$var wire 1 4 x $end
+$var wire 1 5 y $end
+$upscope $end
+$scope module f2 $end
+$var wire 1 . cin $end
+$var wire 1 - cout $end
+$var wire 1 6 sum $end
+$var wire 1 7 x $end
+$var wire 1 8 y $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 - cin $end
+$var wire 1 , cout $end
+$var wire 1 9 sum $end
+$var wire 1 : x $end
+$var wire 1 ; y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+bx +
+bx *
+bx )
+bx (
+x'
+x&
+bx %
+bx $
+x#
+x"
+bx !
+$end
+#5
+19
+1"
+1-
+06
+1.
+03
+1/
+0#
+0,
+b1000 !
+b1000 +
+00
+12
+15
+08
+0;
+11
+04
+17
+0:
+b11 *
+b11 %
+b11 )
+b101 $
+b101 (
+0'
+0&
+#10
+0-
+16
+0.
+0"
+0/
+0#
+0,
+10
+19
+b1111 !
+b1111 +
+13
+02
+05
+1;
+b1000 *
+14
+b1000 %
+b1000 )
+b111 $
+b111 (
+#15
+1#
+1,
+09
+0"
+1-
+06
+1/
+18
+04
+b10 !
+b10 +
+00
+b1100 *
+b11 %
+b11 )
+b101 $
+b101 (
+1'
+1&
+#20
+1"
+0#
+0,
+10
+19
+16
+b1111 !
+b1111 +
+13
+1.
+12
+15
+0;
+b111 *
+14
+b1000 %
+b1000 )
+b111 $
+b111 (
+#25
