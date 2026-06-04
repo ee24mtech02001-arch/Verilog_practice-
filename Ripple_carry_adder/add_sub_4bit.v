@@ -4,7 +4,7 @@ module add_sub_4bit(
     
     output [3:0]sum,
     output carry,
-    output overflow
+    output     ovflow
 );
     wire c1,c2,c3,cin,cout;
     wire [3:0] y_xor;
@@ -19,7 +19,7 @@ module add_sub_4bit(
     full_add f2(sum[2], c3, x[2],y_xor[2],c2);
     full_add f3(sum[3], cout, x[3],y_xor[3],c3);
     assign carry = cout;
-    assign overflow = c3^cout;
+    assign ovflow = c3^cout;
     
 endmodule 
 
